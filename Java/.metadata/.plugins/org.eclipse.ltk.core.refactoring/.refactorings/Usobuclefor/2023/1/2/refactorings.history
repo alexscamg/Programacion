@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Move element &apos;ejerciciofor.java&apos; to &apos;Usobuclefor/src/buclesfor2&apos;&#x0D;&#x0A;- Original project: &apos;Usobuclefor&apos;&#x0D;&#x0A;- Destination element: &apos;Usobuclefor/src/buclesfor2&apos;&#x0D;&#x0A;- Original element: &apos;ejerciciofor.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src&lt;buclesfor2" element1="/src&lt;{ejerciciofor.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1673630010857" units="1" version="1.0"/>
-</session>
