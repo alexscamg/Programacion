@@ -10,12 +10,15 @@ import java.util.Scanner;
  */
 public class Ejercicio1 {
     public static void main (String args[]){
-        var numeroPi = 3.1416;
-        Scanner consola = new Scanner (System.in);
-        System.out.println("Introduce el radio del circulo:");
-        var radio = consola.nextInt();
-        var calculo = numeroPi * radio * (int)2;
-        
-        System.out.println(calculo);
-    }
+                var pi = 3.1416;
+       		Scanner sc = new Scanner(System.in);
+		double a,r; // área y radio
+		System.out.print("Introduce el radio de un circulo: ");//
+		var radio = sc.nextDouble();//leemos o pedimos el radio
+		var area = pi*(radio*radio); // calculamos el area del circulo
+		System.out.println("El area de una circunferencia de radio " + radio + " es: " + area);//imprimimos el resultado
+	
+
 }
+    }
+
