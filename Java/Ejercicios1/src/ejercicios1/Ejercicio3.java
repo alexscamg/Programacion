@@ -12,7 +12,7 @@ public class Ejercicio3 {
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.println("Introoduce un numero:");
+        System.out.println("Introduce un numero:");
         double num = input.nextDouble();
         double mult = num * 20.0;
         double div = mult / 10;
