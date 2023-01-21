@@ -3,17 +3,18 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package ejercicios1;
-
+import java.util.Arrays;
 /**
  *
  * @author Alejandro Sanchez
  */
-public class Ejercicio6 {
+public class Ejercicio7 {
     public static void main(String[] args) {
-        for (int i = 97; i <= 122; i++) {
-            char ch = (char) i;
-            System.out.println("La letra minúscula '" + ch + "' tiene el codigo ASCII " + i);
+        char[] chars = {'a', '&'};
+        Arrays.sort(chars);
+        for (char c : chars) {
+            System.out.print(c + " ");
         }
     }
-}
 
+}
