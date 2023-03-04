@@ -6,8 +6,8 @@ public class Persona {
 	private char sexo;
 	private int edad;
 	private String DNI;
-	private double peso;
-	private double altura;
+	private int peso;
+	private int altura;
 	
 	private final static char SEXO = 'H';
 	
@@ -27,7 +27,7 @@ public class Persona {
 		altura = 0;
 	}
 	
-	public Persona(String nombre, char sexo, int edad, double peso, double altura){
+	public Persona(String nombre, char sexo, int edad, int peso, int altura){
 		this.nombre = nombre;
 		this.sexo = sexo;
 		this.edad = edad;
@@ -37,27 +37,44 @@ public class Persona {
 	}
 	
 	/* Calculara si la persona esta en su peso ideal */          
-	public int CalcularIMC(){
-		double calculo = peso/(altura*altura);
-		if(calculo < 20) {
-			return -1;
-		}else if (calculo >=20 && calculo <= 25) {
-			return 0;
-		}else if (calculo >25) {
-			return 1;
+	public int CalcularIMC() throws ExceptionIMC{
+		
+		int imc = 0;
+		
+		if (peso>5 && altura > 40) {
+			int calculo = (int) (peso/(altura*altura));
+			if(calculo < 20) {
+				return -1;
+			}else if (calculo >=20 && calculo <= 25) {
+				return 0; 
+			}else if (calculo >25) {
+				return 1;
+			}else {
+				throw new ExceptionIMC("Problema en el calculo");
+			}
+		}else {
+			throw new ExceptionIMC("Problema en el calculo");
 		}
-		return 0;
+		
+		
 	}
 
 	// Indica si es mayor de edad, devuelve un booleano.
-    private boolean esMayorDeEdad() {
-		if(edad>18);
-		  return true;
+    public boolean esMayorDeEdad() throws ExceptionEdad {
+    	
+    	if (edad<=0) {
+    		throw new ExceptionEdad("Problema en la edad");
+    	}
+    	else {
+    		if(edad>18);
+  		  return true;
+    	}
+		
 	}
     
     // Comprueba que el sexo introducido es correcto. Si no es correcto, sera H. 
     private void comprobarSexo() {
-		if (sexo!='H'&& sexo != 'S'){
+		if (sexo!='H'&& sexo != 'M'){
 			sexo = 'H';	
 		}
 	}
@@ -76,6 +93,7 @@ public class Persona {
     
     // Denera un DNI aleatorio
 	private void generaDNI() {
+		
 		final int divisor = 23;
 
         int numDNI = ((int) Math.floor(Math.random() * (100000000 - 10000000) + 10000000));
@@ -108,13 +126,23 @@ public class Persona {
 		this.edad = edad;
 	}
 	
-	public void setPeso(double peso) {
+	public void setPeso(int peso) {
 		this.peso = peso;
 	}
 	
-	public void setAltura(double altura) {
+	public void setAltura(int altura) {
 		this.altura = altura;
 	}
+	
+	
+	// public static String generaDNIExt(String dni) {
+		
+	// }
+	
+	
+	
+	
+	
 	
 	
 	public static void main(String[] args) {
@@ -122,13 +150,23 @@ public class Persona {
 		// Generamos un objeto
 		Persona persona1 = new Persona();
 		Persona persona2 = new Persona("Alex", 'H', 20);
-		Persona persona3 = new Persona("Ana", 'M', 20, 50.00, 1.60);
+		Persona persona3 = new Persona("Ana", 'M', 20, 50, 160);
 		
 		System.out.println(persona3.toString());
-		System.out.println(persona3.CalcularIMC());
+		try {
+			System.out.println(persona3.CalcularIMC());
+		} catch (ExceptionIMC e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		
 		System.out.println(persona2.toString());
-		System.out.println(persona2.CalcularIMC());
+		try {
+			System.out.println(persona2.CalcularIMC());
+		} catch (ExceptionIMC e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 
 	}
 

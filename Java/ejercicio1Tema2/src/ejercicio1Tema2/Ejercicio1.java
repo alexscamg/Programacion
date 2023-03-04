@@ -2,7 +2,7 @@ package ejercicio1Tema2;
 
 public class Ejercicio1 {
 	
-public static void main (String [] args ) {
+public void main (String [] args ) {
 		
 		Temperatura myTemp = new Temperatura();
 		
