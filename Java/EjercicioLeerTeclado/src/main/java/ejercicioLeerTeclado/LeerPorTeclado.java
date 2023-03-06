@@ -51,16 +51,6 @@ public class LeerPorTeclado {
 		}
 		
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
 	}
 	
 
