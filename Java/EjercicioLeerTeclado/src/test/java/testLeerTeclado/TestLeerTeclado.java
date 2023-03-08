@@ -1,5 +1,8 @@
 package testLeerTeclado;
 
+
+import static org.junit.jupiter.api.Assertions.assertTrue;
+
 import org.junit.Test;
 /**
  * 
@@ -15,39 +18,33 @@ import ejercicioLeerTeclado.ExcepcionVocal;
 import ejercicioLeerTeclado.LeerPorTeclado;
 
 public class TestLeerTeclado {
+
+  
+  
   
     @Test
-	public void testSingleSuccessTest() {
-    
-	  while (true) {
-		  LeerPorTeclado t1 = new LeerPorTeclado();
-		  
-		  try {
-			t1.procesaCaracter();
-		} catch (ExcepcionVocal e) {
-			// TODO Auto-generated catch block
-			System.out.println(e.getMessage());
-		} catch (ExcepcionBlanco e) {
-			// TODO Auto-generated catch block
-			System.out.println(e.getMessage());
-			
-		} catch (ExcepcionNumero e) {
-			// TODO Auto-generated catch block
-			System.out.println(e.getMessage());
-		} catch (ExcepcionSalida e) {
-			// TODO Auto-generated catch block
-			System.out.println(e.getMessage());
-			break;
-		}
+	  public void testExcepcion() {
+    	LeerPorTeclado t2 = new LeerPorTeclado();
+    	   
+    			  
+    			try {
+    				t2.procesaCaracter('a');
+    				
+    			} catch (ExcepcionVocal e) {
+    				// TODO Auto-generated catch block
+    				assertTrue(e.getMessage().contains("Excepcion de vocal"));
+    			} catch (ExcepcionBlanco e) {
+    				// TODO Auto-generated catch block
+    				assertTrue(false);
+    			} catch (ExcepcionNumero e) {
+    				// TODO Auto-generated catch block
+    				assertTrue(false);
+    			} catch (ExcepcionSalida e) {
+    				// TODO Auto-generated catch block
+    				assertTrue(false);
+    			}
+    		  
 	  }
-    
-  }
-  
-
-
-
-
-
 
 
 }
