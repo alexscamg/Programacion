@@ -16,10 +16,6 @@ public class TestExcepcion {
 	
 	PruebaEdadPersona p1 = new PruebaEdadPersona();
 
-
-
-		    
-
 		  
 	
 	@Test
