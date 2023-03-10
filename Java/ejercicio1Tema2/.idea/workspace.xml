@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4034f966-796e-4c70-83f0-f135940290ba" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Constructores/bin/ejemploConstructor/Moto.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Constructores/bin/ejemploConstructor/Moto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio6Tema2/bin/ejercicio6/Rebajas.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Ejercicio6Tema2/bin/ejercicio6/Rebajas.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio8Pag36/bin/ejercicio8/Ejercicio8.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Ejercicio8Pag36/bin/ejercicio8/Ejercicio8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjercicioCentralita/bin/consumo/Consumo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../EjercicioCentralita/bin/consumo/Consumo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjercicioCentralita/bin/consumo/ejercicio10.class" beforeDir="false" afterPath="$PROJECT_DIR$/../EjercicioCentralita/bin/consumo/ejercicio10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjercioTema0/bin/ejercicioTema0/EjerciciosResueltos.class" beforeDir="false" afterPath="$PROJECT_DIR$/../EjercioTema0/bin/ejercicioTema0/EjerciciosResueltos.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExcepcionesGenEsp/src/main/java/excepcionesGenEsp/PruebaEdadPersona.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ExcepcionesGenEsp/src/main/java/excepcionesGenEsp/PruebaEdadPersona.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HolaMundo/bin/HolaMundo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HolaMundo/bin/HolaMundo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tema3Libreria/bin/libreria1/Calculadora.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Tema3Libreria/bin/libreria1/Calculadora.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tema3Libreria/bin/libreria1/TestCalculadora.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Tema3Libreria/bin/libreria1/TestCalculadora.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tema3UsaLibreria/bin/pruebaUnit/TestUnit.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Tema3UsaLibreria/bin/pruebaUnit/TestUnit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tema3UsaLibreria/bin/usaLibreria/UsaLibreriaCalculadora.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Tema3UsaLibreria/bin/usaLibreria/UsaLibreriaCalculadora.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TemaTRES/bin/ejercicios/Ejercicio11.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TemaTRES/bin/ejercicios/Ejercicio11.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TemaTRES/bin/ejercicios/RestauranteException.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TemaTRES/bin/ejercicios/RestauranteException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TemaTRES/bin/ejercicios/RestauranteIsrael.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TemaTRES/bin/ejercicios/RestauranteIsrael.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TemaTRES/bin/temario/EjemploException.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TemaTRES/bin/temario/EjemploException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TiposPrimitivos/bin/introduccion/Booleanos.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TiposPrimitivos/bin/introduccion/Booleanos.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TiposPrimitivos/bin/introduccion/Suma.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TiposPrimitivos/bin/introduccion/Suma.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TiposPrimitivos/bin/tiposPrimitivos/TiposPrimitivos.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TiposPrimitivos/bin/tiposPrimitivos/TiposPrimitivos.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ejercicio1Tema2/Ejercicio1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ejercicio1Tema2/Ejercicio1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ejercicio1Tema2/Temperatura.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ejercicio1Tema2/Temperatura.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ejercicio1Tema2/TemperaturaMejorada.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ejercicio1Tema2/TemperaturaMejorada.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ejercicioCoche/Coche.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ejercicioCoche/Coche.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ejercicioCoche/Ejercicio2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ejercicioCoche/Ejercicio2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../temaDOS/bin/ejercicioFinanzas/Finanzas.class" beforeDir="false" afterPath="$PROJECT_DIR$/../temaDOS/bin/ejercicioFinanzas/Finanzas.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../temaDOS/bin/ejercicioMiNumero/MiNumero.class" beforeDir="false" afterPath="$PROJECT_DIR$/../temaDOS/bin/ejercicioMiNumero/MiNumero.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../temaDOS/bin/ejercicioNumero/Numero.class" beforeDir="false" afterPath="$PROJECT_DIR$/../temaDOS/bin/ejercicioNumero/Numero.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../temaDOS/bin/ejerciciosTema2/CalcularBilletes.class" beforeDir="false" afterPath="$PROJECT_DIR$/../temaDOS/bin/ejerciciosTema2/CalcularBilletes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../temaDOS/bin/ejerciciosTema2/CalcularTiempo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../temaDOS/bin/ejerciciosTema2/CalcularTiempo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../temaDOS/bin/temaDOS/EntradaPorConsola.class" beforeDir="false" afterPath="$PROJECT_DIR$/../temaDOS/bin/temaDOS/EntradaPorConsola.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="2MmsN1xPCWJAic2ITD9g9RU0DMK" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4034f966-796e-4c70-83f0-f135940290ba" name="Changes" comment="" />
+      <created>1678384049259</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1678384049259</updated>
+    </task>
+    <servers />
+  </component>
+</project>
